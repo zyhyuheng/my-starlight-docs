@@ -15,17 +15,18 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
+			// 侧边栏配置
 			sidebar: [
 				{
-					label: 'Guides',
+					label: '指南',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: '指南', slug: '指南/example' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '参考',
+					autogenerate: { directory: '参考' },
 				},
 			],
 		}),
