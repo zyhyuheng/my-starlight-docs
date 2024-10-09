@@ -12,8 +12,11 @@ export default defineConfig({
 		          lang: 'zh-CN',
 		        },
 		      },
+			tableOfContents:{
+				minHeadingLevel: 1,maxHeadingLevel: 3
+			},  
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/zyhyuheng/my-starlight-docs',
 			},
 			// 侧边栏配置
 			sidebar: [
@@ -27,6 +30,10 @@ export default defineConfig({
 				{
 					label: '参考',
 					autogenerate: { directory: '参考' },
+				},
+				{
+					label: '工作记录',
+					autogenerate: { directory: '工作记录' },
 				},
 			],
 		}),
